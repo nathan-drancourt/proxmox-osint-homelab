@@ -7,8 +7,8 @@
   "updateable": true,
   "privileged": false,
   "interface_port": 8080,
-  "documentation": "https://github.com/ImNvthan/proxmox-osint-homelab/blob/main/README.md",
-  "website": "https://github.com/ImNvthan/proxmox-osint-homelab",
+  "documentation": "https://github.com/nathan-drancourt/proxmox-osint-homelab/blob/main/README.md",
+  "website": "https://github.com/nathan-drancourt/proxmox-osint-homelab",
   "logo": null,
   "description": "LXC Debian : homelab OSINT à autopilote. On saisit un sélecteur (numéro, e-mail, pseudo, nom, domaine, IP), le type est détecté, les pipelines de reconnaissance passive s'enchaînent, l'outil pivote sur les sélecteurs découverts et construit un graphe d'entités + une affiche (dossier une page) par personne — famille/proches en option. Interface web, SpiderFoot en service, garde-fous RGPD (confirmation, purge, TTL).",
   "install_methods": [

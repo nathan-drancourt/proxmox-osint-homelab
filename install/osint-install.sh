@@ -6,14 +6,14 @@
 #
 #  Aussi utilisable à la main sur une machine Debian 12 / Ubuntu 22.04+ à vous.
 #  Recommandé (immunisé contre le cache de raw.githubusercontent) :
-#    curl -fsSL https://codeload.github.com/ImNvthan/proxmox-osint-homelab/tar.gz/refs/heads/main \
+#    curl -fsSL https://codeload.github.com/nathan-drancourt/proxmox-osint-homelab/tar.gz/refs/heads/main \
 #      | tar xz && bash proxmox-osint-homelab-main/install/osint-install.sh
 #
 #  Licence : MIT
 # ---------------------------------------------------------------------------
 set -Eeuo pipefail
 
-OSINT_REPO_URL="${OSINT_REPO_URL:-https://github.com/ImNvthan/proxmox-osint-homelab}"
+OSINT_REPO_URL="${OSINT_REPO_URL:-https://github.com/nathan-drancourt/proxmox-osint-homelab}"
 OSINT_REPO_BRANCH="${OSINT_REPO_BRANCH:-main}"
 GO_VERSION="${GO_VERSION:-1.22.6}"
 SPIDERFOOT_BIND="${SPIDERFOOT_BIND:-127.0.0.1:5001}"

@@ -6,7 +6,7 @@ set -uo pipefail
 
 GO=/usr/local/go/bin/go
 SRC=/opt/osint/src
-REPO_SLUG="${OSINT_REPO_SLUG:-ImNvthan/proxmox-osint-homelab}"
+REPO_SLUG="${OSINT_REPO_SLUG:-nathan-drancourt/proxmox-osint-homelab}"
 REPO_BRANCH="${OSINT_REPO_BRANCH:-main}"
 export PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin PATH="/usr/local/go/bin:/usr/local/bin:$PATH"
 export GIT_TERMINAL_PROMPT=0

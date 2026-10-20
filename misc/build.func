@@ -71,7 +71,7 @@ variables() {
   var_net="${var_net:-dhcp}"; var_gateway="${var_gateway:-}"
   var_disableip6="${var_disableip6:-no}"; var_verbose="${var_verbose:-no}"
   var_start="${var_start:-yes}"; var_onboot="${var_onboot:-1}"
-  OSINT_REPO_URL="${OSINT_REPO_URL:-https://github.com/ImNvthan/proxmox-osint-homelab}"
+  OSINT_REPO_URL="${OSINT_REPO_URL:-https://github.com/nathan-drancourt/proxmox-osint-homelab}"
   OSINT_REPO_BRANCH="${OSINT_REPO_BRANCH:-main}"
   LXC_PW="$(openssl rand -base64 24 2>/dev/null | tr -dc 'A-Za-z0-9' | cut -c1-20)"
   [[ -n "$LXC_PW" ]] || LXC_PW="Osint$(date +%s)x"

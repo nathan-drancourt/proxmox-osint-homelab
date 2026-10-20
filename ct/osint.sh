@@ -6,13 +6,13 @@
 #  interface web.
 #
 #  À LANCER SUR L'HÔTE PROXMOX :
-#    bash -c "$(wget -qLO - https://raw.githubusercontent.com/ImNvthan/proxmox-osint-homelab/main/ct/osint.sh)"
+#    bash -c "$(wget -qLO - https://raw.githubusercontent.com/nathan-drancourt/proxmox-osint-homelab/main/ct/osint.sh)"
 #
 #  Auteur : Nathan Drancourt   ·   Licence : MIT
 # ---------------------------------------------------------------------------
 set -Eeo pipefail
 
-REPO_SLUG="${OSINT_REPO_SLUG:-ImNvthan/proxmox-osint-homelab}"
+REPO_SLUG="${OSINT_REPO_SLUG:-nathan-drancourt/proxmox-osint-homelab}"
 REPO_BRANCH="${OSINT_REPO_BRANCH:-main}"
 export OSINT_REPO_URL="${OSINT_REPO_URL:-https://github.com/${REPO_SLUG}}"
 export OSINT_REPO_BRANCH="$REPO_BRANCH"

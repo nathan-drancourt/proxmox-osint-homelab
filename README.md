@@ -39,7 +39,7 @@ construit un **graphe d'entités** et rend une **affiche par personne**.
 Sur l'hôte **Proxmox VE** (root) :
 
 ```bash
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/ImNvthan/proxmox-osint-homelab/main/ct/osint.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/nathan-drancourt/proxmox-osint-homelab/main/ct/osint.sh)"
 ```
 
 Menu (Par défaut / Avancé) → `pct create` → installation entièrement automatisée
@@ -138,7 +138,7 @@ json/osint.json             métadonnées du script utilitaire
 ## Depuis un clone (dév / quasi hors-ligne)
 
 ```bash
-git clone https://github.com/ImNvthan/proxmox-osint-homelab
+git clone https://github.com/nathan-drancourt/proxmox-osint-homelab
 cd proxmox-osint-homelab
 bash ct/osint.sh
 # pointer le conteneur vers votre fork :
