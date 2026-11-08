@@ -10,6 +10,8 @@
 
 # Homelab OSINT — LXC Proxmox VE, autopilote
 
+![Aperçu du projet proxmox-osint-homelab](docs/banner.png)
+
 **Une commande sur l'hôte Proxmox → un conteneur Debian non privilégié avec un
 vrai homelab OSINT. Vous saisissez ce que vous savez ; il cherche seul.**
 
